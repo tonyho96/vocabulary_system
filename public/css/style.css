@@ -1,0 +1,46 @@
+#app > .container{
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid #d3e0e9;
+}
+#app > .container > .row > div {
+  padding: 0;
+}
+#app > .container > .row > div > .panel{
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.emphasize-text{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.space{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.panel > .panel-body #register{
+  color: #fff;
+}
+.panel > .panel-body #register:hover, #register:active{
+  text-decoration: none;
+}
+.panel > .panel-body #google-login{
+  margin-top: 80px;
+}
+.panel > .panel-body #google-login > p{
+  font-size: 0.9em;
+}
+.panel > .panel-heading{
+  font-size: 1.4em;
+  border: none;
+}
+.panel > .panel-body label{
+  font-weight: normal;
+}
+.panel > .panel-body .intro{
+  font-weight: bold;
+}
+.panel > .panel-body .form-group button{
+  margin-bottom: 20px;
+}
